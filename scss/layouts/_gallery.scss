@@ -1,0 +1,9 @@
+.gallery {
+  margin-top: 2rem;
+}
+
+.gallery-image {
+  width: $width;
+  object-fit: cover;
+  border-radius: 1em;
+}

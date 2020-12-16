@@ -1,0 +1,21 @@
+.contenedor-places {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: brown;
+  & h5 {
+    position: absolute;
+    display: none;
+    margin-top: 1em;
+  }
+  &:hover {
+    transform: scale(1.1);
+    filter: grayscale(0.5);
+    transition: all 0.5s;
+  }
+  &:hover h5 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+}

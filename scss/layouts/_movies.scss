@@ -1,0 +1,13 @@
+.card {
+  box-shadow: 2px 2px 8px $color_black;
+  margin-bottom: 1em;
+
+  &:hover img {
+    transform: scale(0.9);
+  }
+}
+
+.button__trailer:hover {
+  background-color: white;
+  color: red;
+}

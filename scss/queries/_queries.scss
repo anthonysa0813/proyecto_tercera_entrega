@@ -1,0 +1,22 @@
+@media (max-width: 480px) {
+  .premio-list {
+    @include aligns;
+    display: inline-block;
+
+    margin-left: 1.5em;
+  }
+  .list__premios {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info2 {
+    margin-top: -1.5em;
+  }
+  .gallery-image {
+    object-fit: cover;
+    height: $v_height * 2;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+}

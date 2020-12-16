@@ -1,0 +1,21 @@
+.footer__container {
+  padding: 1em !important;
+  background-color: $color_primary;
+  color: white;
+}
+.footer__container .row {
+  margin-right: 0 !important;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  i {
+    margin-right: 0.5em;
+    font-size: 2em;
+  }
+}
+
+.footer__info {
+  padding: 1em;
+}
